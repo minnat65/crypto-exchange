@@ -1,6 +1,6 @@
 import { getDataFromCoinWatch } from "../services/crypto";
 
-const TIME_INTERVAL = 1 * 60 * 1000;
+const TIME_INTERVAL = 30 * 1000;
 
 setInterval(() => {
     getDataFromCoinWatch()
